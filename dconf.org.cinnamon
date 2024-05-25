@@ -1,0 +1,96 @@
+[/]
+alttab-switcher-delay=100
+desktop-effects=true
+enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:separator@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:0:systray@cinnamon.org:3', 'panel1:right:1:xapp-status@cinnamon.org:4', 'panel1:right:2:notifications@cinnamon.org:5', 'panel1:right:3:printers@cinnamon.org:6', 'panel1:right:4:removable-drives@cinnamon.org:7', 'panel1:right:6:favorites@cinnamon.org:9', 'panel1:right:7:network@cinnamon.org:10', 'panel1:right:8:sound@cinnamon.org:11', 'panel1:right:9:power@cinnamon.org:12', 'panel1:right:10:calendar@cinnamon.org:13', 'panel1:right:11:cornerbar@cinnamon.org:14']
+next-applet-id=15
+panel-edit-mode=false
+panel-zone-icon-sizes='[{"panelId": 1, "left": 48, "center": 0, "right": 24}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}]'
+panels-autohide=['1:true']
+panels-enabled=['1:0:right']
+panels-height=['1:41']
+panels-hide-delay=['1:135']
+panels-show-delay=['1:550']
+window-effect-speed=1
+
+[cinnamon-session]
+quit-time-delay=60
+
+[desktop/background]
+picture-options='spanned'
+picture-uri='file:///home/arthur/%E4%B8%8B%E8%BD%BD/dima-solomin-mKZrEVFw654-unsplash.jpg'
+
+[desktop/background/slideshow]
+delay=15
+image-source='xml:///usr/share/cinnamon-background-properties/linuxmint-virginia.xml'
+
+[desktop/interface]
+cursor-blink-time=1200
+cursor-size=26
+cursor-theme='Bibata-Modern-Classic'
+gtk-theme='Mint-Y-Blue'
+icon-theme='Papirus'
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[desktop/keybindings/media-keys]
+terminal=['<Primary><Alt>t', '<Super>Return']
+
+[desktop/keybindings/wm]
+switch-to-workspace-1=['<Super>F1']
+switch-to-workspace-2=['<Super>F2']
+switch-to-workspace-3=['<Super>F3']
+toggle-fullscreen=['<Super>f']
+toggle-maximized=['<Alt>F10', '<Super>m']
+
+[desktop/peripherals/keyboard]
+delay=uint32 500
+repeat-interval=uint32 30
+
+[desktop/peripherals/mouse]
+double-click=1000
+drag-threshold=8
+speed=-0.01810865191146882
+
+[desktop/peripherals/touchpad]
+click-method='default'
+speed=0.51710261569416494
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+min-window-opacity=30
+
+[gestures]
+enabled=true
+pinch-percent-threshold=uint32 40
+swipe-down-2='PUSH_TILE_DOWN::end'
+swipe-down-3='TOGGLE_OVERVIEW::end'
+swipe-down-4='VOLUME_DOWN::end'
+swipe-left-2='PUSH_TILE_LEFT::end'
+swipe-left-3='WORKSPACE_NEXT::end'
+swipe-left-4='WORKSPACE_PREVIOUS::::end'
+swipe-percent-threshold=uint32 40
+swipe-right-2='PUSH_TILE_RIGHT::end'
+swipe-right-3='WORKSPACE_PREVIOUS::end'
+swipe-right-4='WINDOW_WORKSPACE_NEXT::end'
+swipe-up-2='PUSH_TILE_UP::end'
+swipe-up-3='TOGGLE_EXPO::end'
+swipe-up-4='VOLUME_UP::end'
+tap-3='MEDIA_PLAY_PAUSE::end'
+
+[muffin]
+draggable-border-width=10
+
+[settings-daemon/plugins/power]
+lid-close-ac-action='suspend'
+lid-close-battery-action='suspend'
+sleep-display-ac=1800
+sleep-display-battery=1800
+sleep-inactive-ac-timeout=0
+sleep-inactive-battery-timeout=0
+
+[theme]
+name='Orchidea'

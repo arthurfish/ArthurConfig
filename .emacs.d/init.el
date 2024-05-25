@@ -37,7 +37,7 @@
 (tool-bar-mode 0);;Hide toolbar
 (set-scroll-bar-mode nil)
 
-(setq frame-title-format " ")
+;(setq frame-title-format " ")
 (setq x-select-enable-clipboard t);;Ctrl-c&Ctrl-v
 
 (setq linum-format "%3d")
@@ -131,5 +131,5 @@
 (global-set-key (kbd "C-x k") 'kill-this-buffer);; Kill Buffer without asking
 
 ;;Set window TOUMING!
-(set-frame-parameter (selected-frame) 'alpha (list 60 60))
-(add-to-list 'default-frame-alist (cons 'alpha (list 60 60)))
+(set-frame-parameter (selected-frame) 'alpha (list 90 90))
+(add-to-list 'default-frame-alist (cons 'alpha (list 90 90)))
