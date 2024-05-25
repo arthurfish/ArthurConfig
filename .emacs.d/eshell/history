@@ -1,0 +1,128 @@
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+poweroff
+ls
+./a.out 
+head in.sort 
+./a.out 
+poweroff
+python draw.py 
+sudo apt install oracle-java-installer
+sudo apt install oracle-java8-installer
+java -v
+javac -v
+javac --verson
+javac
+top
+quit
+exit
+poweroff
+./a.out 
+ls
+./a.out 
+./a.out 
+cat carry.in
+vim carry.in
+emacs -nw carry.in
+cat carry.in
+cd ..
+ls
+rm VisualBoyAdvance.cfg 
+la
+ls -a
+emacs .bashrc
+cp .emacs .emacs.d/init.el
+ln -r .emacs.d/init.el .emacs
+ls
+ln -s  .emacs.d/init.el .emacs
+exit
+ls
+rm .emacs
+ln .emacs.d/init.el .emacs
+poweroff
+ls
+cd code
+ls
+rm #*
+rm *#
+rm -r *#
+ls
+ls
+ls
+clear
+
+ls
+ls
+cd /
+ls
+cd etc
+ls
+exit
+ls
+rm w3m.txt 
+rm --help
+ps -aux
+exit
+poweroff
+poweroff
+poweroff 
+poweroff
+ls
+./a.out 
+./a.out 
+./a.out 
+cp list.cpp ~/haj_list.h
+cp ~/haj_list.h ~/code/haj_list.h
+poweroff
+cd code
+ls
+./a.out 
+cd ..
+ls
+mv findbug.cpp ./code/
+mv a.out code/
+..
+exit
+cd code
+./a.out 
+su
+map P2952 TimeComplexity Parse TG+/SX- 2017NOIP TG
+ls
+mv CF409F.cpp code
+rm -r codeback
+rm *.png
+rm *.rar
+rm *.zip
+ls
+mv 20190301\?\?\?\?\?\?\?\(C++\?\)/ 2019
+ls
+rm gao.vim 
+rm -r Templates/
+sudo rm System\ Volume\ Information/
+sudo rm -r System\ Volume\ Information/
+ls
+rm Desktop/
+rm -r Desktop/
+rm -r colors/
+sudo rm -r colors/
+ls
+mv 2018.xls 2019/
+sync
+sudo mount /dev/sdf1 ~/usb
+sudo cp /5/5.1.cpp ~/usb
+sudo cp ~/5/5.1.cpp ~/usb
+sync
+exit
+date
+exit
+ins aview
+exit
+exit
+cd code
+cat map.txt 
+sleep
+sleep --help
+sleep 1d
+mv P1141.cpp old.P1141
