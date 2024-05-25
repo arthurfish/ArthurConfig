@@ -1,7 +1,5 @@
 ./a.out 
 ./a.out 
-./a.out 
-./a.out 
 poweroff
 ls
 ./a.out 
@@ -126,3 +124,5 @@ sleep
 sleep --help
 sleep 1d
 mv P1141.cpp old.P1141
+ls
+exit

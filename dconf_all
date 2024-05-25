@@ -1,0 +1,378 @@
+[ca/desrt/dconf-editor]
+saved-pathbar-path='/org/cinnamon/'
+saved-view='/org/cinnamon/'
+show-warning=false
+window-height=500
+window-is-maximized=false
+window-width=540
+
+[com/linuxmint/install]
+flatpak-remotes=['flathub::https://dl.flathub.org/repo/::False']
+installed-apps=['apt:clash-verge', 'apt:emacs', 'apt:fcitx', 'apt:fcitx-config-gtk', 'apt:fcitx-frontend-all', 'apt:fcitx-frontend-fbterm', 'apt:fcitx-frontend-gtk2', 'apt:fcitx-frontend-gtk3', 'apt:fcitx-frontend-qt5', 'apt:fcitx-libs', 'apt:fcitx-module-cloudpinyin', 'apt:fcitx-module-dbus', 'apt:fcitx-module-kimpanel', 'apt:fcitx-module-lua', 'apt:fcitx-module-x11', 'apt:fcitx-modules', 'apt:fcitx-pinyin', 'apt:fcitx-rime', 'apt:fcitx-sunpinyin', 'apt:fcitx-table', 'apt:fcitx-table-wubi', 'apt:fcitx-tools', 'apt:fcitx-ui-classic', 'apt:g++', 'apt:gir1.2-fcitx-1.0', 'apt:ibus', 'apt:ibus-clutter', 'apt:ibus-gtk', 'apt:ibus-gtk3', 'apt:ibus-sunpinyin', 'apt:ibus-table', 'apt:ibus-table-wubi', 'apt:vim', 'apt:vim-gtk3', 'apt:remmina']
+
+[com/linuxmint/updates]
+install-last-run=1716549679
+refresh-last-run=1716642729
+show-welcome-page=false
+window-height=570
+window-pane-position=344
+window-width=790
+
+[org/blueman/general]
+window-properties=[1080, 688, 0, 32]
+
+[org/blueman/plugins/autoconnect]
+services=@a(ss) []
+
+[org/blueman/plugins/powermanager]
+auto-power-on=@mb true
+
+[org/blueman/plugins/recentconns]
+recent-connections=[{'adapter': '08:71:90:3E:76:13', 'address': 'D1:06:0D:23:FA:5B', 'alias': 'MIMouse 2', 'icon': 'input-mouse', 'name': '音频和输入配置文件', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1716559507.7865336'}, {'adapter': '08:71:90:3E:76:13', 'address': 'D1:07:0D:23:FA:5B', 'alias': 'MIMouse 2', 'icon': 'input-mouse', 'name': '音频和输入配置文件', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1716559796.143295', 'device': '/org/bluez/hci0/dev_D1_07_0D_23_FA_5B'}, {'adapter': '08:71:90:3E:76:13', 'address': '14:0A:29:55:D0:35', 'alias': 'Mi Air2 SE', 'icon': 'audio-headset', 'name': '音频和输入配置文件', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1716628171.8463218'}]
+
+[org/cinnamon]
+alttab-switcher-delay=100
+desktop-effects=true
+enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:separator@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:0:systray@cinnamon.org:3', 'panel1:right:1:xapp-status@cinnamon.org:4', 'panel1:right:2:notifications@cinnamon.org:5', 'panel1:right:3:printers@cinnamon.org:6', 'panel1:right:4:removable-drives@cinnamon.org:7', 'panel1:right:6:favorites@cinnamon.org:9', 'panel1:right:7:network@cinnamon.org:10', 'panel1:right:8:sound@cinnamon.org:11', 'panel1:right:9:power@cinnamon.org:12', 'panel1:right:10:calendar@cinnamon.org:13', 'panel1:right:11:cornerbar@cinnamon.org:14']
+next-applet-id=15
+panel-edit-mode=false
+panel-zone-icon-sizes='[{"panelId": 1, "left": 48, "center": 0, "right": 24}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}]'
+panels-autohide=['1:true']
+panels-enabled=['1:0:right']
+panels-height=['1:41']
+panels-hide-delay=['1:135']
+panels-show-delay=['1:550']
+window-effect-speed=1
+
+[org/cinnamon/cinnamon-session]
+quit-time-delay=60
+
+[org/cinnamon/desktop/background]
+picture-options='spanned'
+picture-uri='file:///home/arthur/%E4%B8%8B%E8%BD%BD/dima-solomin-mKZrEVFw654-unsplash.jpg'
+
+[org/cinnamon/desktop/background/slideshow]
+delay=15
+image-source='xml:///usr/share/cinnamon-background-properties/linuxmint-virginia.xml'
+
+[org/cinnamon/desktop/interface]
+cursor-blink-time=1200
+cursor-size=26
+cursor-theme='Bibata-Modern-Classic'
+gtk-theme='Mint-Y-Blue'
+icon-theme='Papirus'
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[org/cinnamon/desktop/keybindings/media-keys]
+terminal=['<Primary><Alt>t', '<Super>Return']
+
+[org/cinnamon/desktop/keybindings/wm]
+switch-to-workspace-1=['<Super>F1']
+switch-to-workspace-2=['<Super>F2']
+switch-to-workspace-3=['<Super>F3']
+toggle-fullscreen=['<Super>f']
+toggle-maximized=['<Alt>F10', '<Super>m']
+
+[org/cinnamon/desktop/peripherals/keyboard]
+delay=uint32 500
+repeat-interval=uint32 30
+
+[org/cinnamon/desktop/peripherals/mouse]
+double-click=1000
+drag-threshold=8
+speed=-0.01810865191146882
+
+[org/cinnamon/desktop/peripherals/touchpad]
+click-method='default'
+speed=0.51710261569416494
+
+[org/cinnamon/desktop/sound]
+event-sounds=false
+
+[org/cinnamon/desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+min-window-opacity=30
+
+[org/cinnamon/gestures]
+enabled=true
+pinch-percent-threshold=uint32 40
+swipe-down-2='PUSH_TILE_DOWN::end'
+swipe-down-3='TOGGLE_OVERVIEW::end'
+swipe-down-4='VOLUME_DOWN::end'
+swipe-left-2='PUSH_TILE_LEFT::end'
+swipe-left-3='WORKSPACE_NEXT::end'
+swipe-left-4='WORKSPACE_PREVIOUS::::end'
+swipe-percent-threshold=uint32 40
+swipe-right-2='PUSH_TILE_RIGHT::end'
+swipe-right-3='WORKSPACE_PREVIOUS::end'
+swipe-right-4='WINDOW_WORKSPACE_NEXT::end'
+swipe-up-2='PUSH_TILE_UP::end'
+swipe-up-3='TOGGLE_EXPO::end'
+swipe-up-4='VOLUME_UP::end'
+tap-3='MEDIA_PLAY_PAUSE::end'
+
+[org/cinnamon/muffin]
+draggable-border-width=10
+
+[org/cinnamon/settings-daemon/plugins/power]
+lid-close-ac-action='suspend'
+lid-close-battery-action='suspend'
+sleep-display-ac=1800
+sleep-display-battery=1800
+sleep-inactive-ac-timeout=0
+sleep-inactive-battery-timeout=0
+
+[org/cinnamon/theme]
+name='Orchidea'
+
+[org/gnome/baobab/ui]
+window-size=(960, 600)
+window-state=87168
+
+[org/gnome/desktop/a11y]
+always-show-text-caret=false
+
+[org/gnome/desktop/a11y/applications]
+screen-keyboard-enabled=false
+screen-reader-enabled=false
+
+[org/gnome/desktop/a11y/mouse]
+dwell-click-enabled=false
+dwell-threshold=10
+dwell-time=1.2
+secondary-click-enabled=false
+secondary-click-time=1.2
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/regolith-look/lascaille/ESP_016895_1525_desktop.jpg'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+show-all-sources=false
+sources=@a(ss) []
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+can-change-accels=false
+clock-show-date=false
+clock-show-seconds=false
+cursor-blink=true
+cursor-blink-time=1200
+cursor-blink-timeout=10
+cursor-size=26
+cursor-theme='Bibata-Modern-Classic'
+document-font-name='Sans 11'
+enable-animations=true
+font-name='Ubuntu 10'
+gtk-color-palette='black:white:gray50:red:purple:blue:light blue:green:yellow:orange:lavender:brown:goldenrod4:dodger blue:pink:light green:gray10:gray30:gray75:gray90'
+gtk-color-scheme=''
+gtk-enable-primary-paste=true
+gtk-im-module=''
+gtk-im-preedit-style='callback'
+gtk-im-status-style='callback'
+gtk-key-theme='Default'
+gtk-theme='Mint-Y-Blue'
+gtk-timeout-initial=200
+gtk-timeout-repeat=20
+icon-theme='Papirus'
+menubar-accel='F10'
+menubar-detachable=false
+menus-have-tearoff=false
+monospace-font-name='BitstreamVeraSansMono Nerd Font 12'
+scaling-factor=uint32 0
+text-scaling-factor=1.0
+toolbar-detachable=false
+toolbar-icons-size='large'
+toolbar-style='both-horiz'
+toolkit-accessibility=false
+
+[org/gnome/desktop/peripherals/mouse]
+accel-profile='default'
+double-click=1000
+drag-threshold=8
+left-handed=false
+middle-click-emulation=false
+natural-scroll=false
+speed=-0.01810865191146882
+
+[org/gnome/desktop/privacy]
+disable-camera=false
+disable-microphone=false
+disable-sound-output=false
+old-files-age=uint32 30
+recent-files-max-age=7
+remember-recent-files=true
+remove-old-temp-files=false
+remove-old-trash-files=false
+
+[org/gnome/desktop/screensaver]
+picture-options='zoom'
+picture-uri='file:///usr/share/regolith-look/lascaille/pia21972.png'
+
+[org/gnome/desktop/sound]
+event-sounds=false
+input-feedback-sounds=false
+theme-name='LinuxMint'
+
+[org/gnome/desktop/wm/preferences]
+action-double-click-titlebar='toggle-maximize'
+action-middle-click-titlebar='lower'
+action-right-click-titlebar='menu'
+audible-bell=false
+auto-raise=false
+auto-raise-delay=500
+button-layout=':minimize,maximize,close'
+disable-workarounds=false
+focus-mode='click'
+focus-new-windows='smart'
+mouse-button-modifier='<Alt>'
+num-workspaces=4
+raise-on-click=true
+resize-with-right-button=true
+theme='Mint-Y'
+titlebar-font='Ubuntu Medium 10'
+titlebar-uses-system-font=false
+visual-bell=false
+visual-bell-type='fullscreen-flash'
+workspace-names=@as []
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[org/gnome/gnome-system-monitor]
+current-tab='resources'
+maximized=false
+network-total-in-bits=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(700, 500, 50, 50)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/nm-applet]
+disable-connected-notifications=true
+
+[org/gnome/settings-daemon/plugins/xsettings]
+disabled-gtk-modules=@as []
+enabled-gtk-modules=@as []
+overrides=@a{sv} {}
+
+[org/gnome/terminal/legacy]
+default-show-menubar=false
+headerbar=@mb false
+theme-variant='dark'
+
+[org/gnome/terminal/legacy/profiles:]
+default='b1dcc9dd-5262-4d8d-a863-c897e6d979b9'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=true
+background-color='rgb(46,52,54)'
+background-transparency-percent=7
+font='Monospace Semi-Condensed 12'
+foreground-color='rgb(211,215,207)'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.2627450980392157, 0.38823529411764707, 0.84705882352941175, 1.0)]
+selected-color=(true, 0.2627450980392157, 0.38823529411764707, 0.84705882352941175, 1.0)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=148
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(0, 0)
+window-size=(1080, 651)
+
+[org/nemo/desktop]
+volumes-visible=false
+
+[org/nemo/window-state]
+geometry='800x546+65+65'
+maximized=false
+sidebar-bookmark-breakpoint=5
+start-with-sidebar=true
+
+[org/x/apps/portal]
+color-scheme='default'
+
+[org/x/editor/plugins]
+active-plugins=['sort', 'textsize', 'filebrowser', 'spell', 'bracketcompletion', 'time', 'open-uri-context-menu', 'modelines', 'joinlines', 'docinfo']
+
+[org/x/editor/plugins/filebrowser/on-load]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/arthur/.cache/.fr-a0EF5q/gcxConfiguration-master/vim'
+
+[org/x/editor/preferences/ui]
+statusbar-visible=true
+
+[org/x/editor/state/window]
+bottom-panel-size=140
+side-panel-active-page=-1015551502
+side-panel-size=200
+size=(650, 500)
+state=87168
+
+[org/x/sticky]
+active-group='Group 1'
+first-run=false
+
+[org/x/viewer/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/x/viewer/window]
+maximized=true
+
+[org/x/warpinator/preferences]
+ask-for-send-permission=true
+autostart=false
+connect-id='ARTHUR-LINUXMINT-E309F9BE95E311BE2640'
+no-overwrite=true
+
+[system/proxy]
+ignore-hosts=['localhost', '127.0.0.1', '192.168.0.0/16', '10.0.0.0/8', '172.16.0.0/12', '::1']
+mode='manual'
+
+[system/proxy/http]
+host='127.0.0.1'
+port=7897
+
+[system/proxy/https]
+host='127.0.0.1'
+port=7897
+
+[system/proxy/socks]
+host='127.0.0.1'
+port=7897

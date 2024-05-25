@@ -5,30 +5,23 @@
 (add-to-list 'load-path "~/.emacs.d/solarized-theme")
 (add-to-list 'load-path "~/.emacs.d/color-theme")
 (add-to-list 'load-path "~/.emacs.d/themes")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
 ;;(setq default-directory "~/code/")
 (defun guicolor ()
-;;  (require 'color-theme-solarized)
-;;  (load "busybee.el"))
-;;  (color-theme-solarized))
-  ;;  (load "constant.el"))
-  (load "eziam.el"))
+  (load "oceanic.el"))
 (defun tcolor ()
-  (load "eziam.el")
-  )
+  (load "eziam.el"))
 
 (if (display-graphic-p)
     (guicolor)
-  (tcolor)
-    )
+  (tcolor))
 
-;;(set-face-attribute 'default nil :font "Microsoft YaHei 11")
 (if (display-graphic-p)(dolist (charset '(kana han symbol cjk-misc bopomofo))
   (set-fontset-font (frame-parameter nil 'font)
-;;		    		    charset (font-spec :family "Microsoft YaHei Regular"
-		    charset (font-spec :family "wqy-microhei"
+		    charset (font-spec :family "Fira Code"
 				       :size 15))))
-;;(set-face-attribute 'default nil :font "Hack 13")
+(set-face-attribute 'default nil :font "Fira Code 10")
 
 (setq inhibit-splash-screen t)
 (setq initial-scratch-message "")
@@ -130,6 +123,6 @@
 
 (global-set-key (kbd "C-x k") 'kill-this-buffer);; Kill Buffer without asking
 
-;;Set window TOUMING!
+;;Set window transparent
 (set-frame-parameter (selected-frame) 'alpha (list 90 90))
 (add-to-list 'default-frame-alist (cons 'alpha (list 90 90)))
