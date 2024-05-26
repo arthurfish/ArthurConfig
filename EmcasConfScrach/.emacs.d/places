@@ -1,0 +1,6 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/arthur/init.el" . 4769)
+ ("/home/arthur/.emacs.d/init.el" . 2761)
+ ("/home/arthur/.emacs.d/"
+  (dired-filename . "/home/arthur/.emacs.d/init.el"))
+ ("/home/arthur/back-emerg" . 267))
