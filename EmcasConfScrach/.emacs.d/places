@@ -1,6 +1,14 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/arthur/init.el" . 4769)
- ("/home/arthur/.emacs.d/init.el" . 2761)
+(("/home/arthur/"
+  (dired-filename . "/home/arthur/cfs"))
  ("/home/arthur/.emacs.d/"
   (dired-filename . "/home/arthur/.emacs.d/init.el"))
+ ("/home/arthur/.emacs.d/init.el" . 5308)
+ ("/home/arthur/.emacs.d/auto-save-list/"
+  (dired-filename . "/home/arthur/.emacs.d/auto-save-list/.."))
+ ("/home/arthur/.emacs.d/elpa/projectile-20240212.1100/projectile-autoloads.el" . 22985)
+ ("/home/arthur/init.el" . 4882)
+ ("/home/arthur/test.org" . 248)
+ ("/home/arthur/.emacs.d/elpa/evil-collection-20240523.120/evil-collection-autoloads.el" . 5224)
+ ("/home/arthur/.emacs.d/elpa/annalist-20240501.1201/annalist-autoloads.el" . 1588)
  ("/home/arthur/back-emerg" . 267))

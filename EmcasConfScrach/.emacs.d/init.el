@@ -141,9 +141,10 @@
   (setq evil-want-C-i-jump nil)
 ;;  :hook (evil-mode . rune/evil-hook)
   :config
-  (evil-mode 1)
+;  (evil-mode)
   (define-key evil-insert-state-map (kbd "C-c") 'evil-normal-state)
   (define-key evil-insert-state-map (kbd "C-h") 'evil-delete-backward-char-and-join)
+  (global-set-key (kbd "C-z") 'evil-mode)
 
   ;; Use visual line motions even outside of visual-line-mode buffers
   (evil-global-set-key 'motion "j" 'evil-next-visual-line)
@@ -155,3 +156,17 @@
   :after evil
   :config
   (evil-collection-init))
+
+(use-package org)
+
+(use-package projectile
+  :diminish projectile-mode
+  :config (projectile-mode)
+  :custom ((projectile-completion-system 'ivy))
+  :bind-keymap
+  ("C-c p" . projectile-command-map)
+  :init
+  ;; NOTE: Set this to the folder where you keep your Git repos!
+  (when (file-directory-p "~/Projects/Code")
+    (setq projectile-project-search-path '("~/Projects/Code")))
+  (setq projectile-switch-project-action #'projectile-dired))
