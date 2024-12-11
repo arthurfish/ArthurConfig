@@ -28,7 +28,6 @@
 (setq x-select-enable-clipboard t);;Ctrl-c&Ctrl-v
 
 (setq linum-format "%3d")
-(global-linum-mode 1)
 
 (delete-selection-mode t)
 

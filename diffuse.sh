@@ -3,7 +3,7 @@
 read -p "Win or Linux? [win/linux]" sysname
 
 if [ "$sysname" = "linux" ]; then
-	cp -rf ./.emacs.d/ ~/.config/emacs
+	ln -s ./.emacs.d/ ~/.config/emacs
 elif [ "$sysname" = "win" ]; then
 	cp ./.emacs.d/ ~/
 else
