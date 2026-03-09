@@ -6,6 +6,7 @@
 ; 设计目标 (简化后):
 ; 1. 提供核心的 Emacs 导航和编辑键位。
 ; 2. 快捷键在指定的应用程序 (如 IDE, 终端) 中自动禁用。
+; 3. 加入其他快捷功能，比如打开终端等。
 ; 3. 代码清晰、易读、易于扩展。
 ;
 ; ====================================================================================
@@ -27,18 +28,20 @@ IsAppExcluded() {
     ; 这是在 #HotIf 中判断当前活动窗口的最可靠方法。
     ; "ahk_exe process_name.exe" 是一种特殊的 WinTitle 参数，
     ; 它会精确匹配程序的进程名，忽略窗口标题。
-    
+
     excludedApps := [
         "code.exe",             ; VSCode
         "WindowsTerminal.exe",  ; Windows Terminal
-        ;"bash.exe",             ; Git Bash (或其他 bash 环境)
+        "Zed.exe",
+        "bash.exe",             ; Git Bash (或其他 bash 环境)
         "idea64.exe",           ; IntelliJ IDEA
         "pycharm64.exe",        ; PyCharm
         "webstorm64.exe",       ; WebStorm
         "goland64.exe",         ; GoLand
         "clion64.exe",          ; CLion
         "datagrip64.exe",       ; DataGrip
-        "rider64.exe"           ; Rider
+        "rider64.exe",           ; Rider
+        "WindowsTerminal.exe"
     ]
 
     ; 遍历排除列表，检查是否有任何一个应用是当前活动的
@@ -87,15 +90,13 @@ IsAppExcluded() {
 !<:: Send "^{Home}"
 !>:: Send "^{End}"
 
-^+f:: Send "^f"
-
 ; --- 特殊处理: C-a (单击移动到行首，双击全选) ---
 ^a:: HandleControlA()
 
 HandleControlA() {
     static lastPressTime := 0
     currentTime := A_TickCount
-    
+
     if (currentTime - lastPressTime < 300) {
         Send "^a"
         lastPressTime := 0
@@ -107,3 +108,5 @@ HandleControlA() {
 
 ; 结束 #HotIf 的作用域
 #HotIf
+
+#Enter::Run "wt.exe"
