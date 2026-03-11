@@ -19,4 +19,5 @@
 alias vim = nvim
 alias zone = cd C:\ArthurZone
 alias claude = claude --dangerously-skip-permissions
-$env.config.sho
+$env.config.show_banner = false
+$env.config.buffer_editor = "nvim"
