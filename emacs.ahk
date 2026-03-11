@@ -32,7 +32,6 @@ IsAppExcluded() {
     excludedApps := [
         "code.exe",             ; VSCode
         "WindowsTerminal.exe",  ; Windows Terminal
-        "Zed.exe",
         "bash.exe",             ; Git Bash (或其他 bash 环境)
         "idea64.exe",           ; IntelliJ IDEA
         "pycharm64.exe",        ; PyCharm
@@ -109,4 +108,4 @@ HandleControlA() {
 ; 结束 #HotIf 的作用域
 #HotIf
 
-#Enter::Run "wt.exe"
+#Enter::Run "wt.exe -d C:\ArthurZone"

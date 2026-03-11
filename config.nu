@@ -17,5 +17,6 @@
 # options using:
 #     config nu --doc | nu-highlight | less -R
 alias vim = nvim
-$env.config.show_banner = false
-$env.config.buffer_editor = "nvim"
+alias zone = cd C:\ArthurZone
+alias claude = claude --dangerously-skip-permissions
+$env.config.sho
