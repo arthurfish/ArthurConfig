@@ -30,6 +30,7 @@ IsAppExcluded() {
     ; 它会精确匹配程序的进程名，忽略窗口标题。
 
     excludedApps := [
+        "emacs.exe",
         "code.exe",             ; VSCode
         "WindowsTerminal.exe",  ; Windows Terminal
         "bash.exe",             ; Git Bash (或其他 bash 环境)
@@ -108,4 +109,16 @@ HandleControlA() {
 ; 结束 #HotIf 的作用域
 #HotIf
 
-#Enter::Run "wt.exe -d C:\ArthurZone"
+#Enter::{
+    if WinExist("ahk_exe WindowsTerminal.exe") {
+        WinActivate "ahk_exe WindowsTerminal.exe"
+    }else{
+        Run "wt.exe -d C:\ArthurZone"
+        WinWait "ahk_exe WindowsTerminal.exe"
+        WinActivate "ahk_exe WindowsTerminal.exe"
+    }
+}
+
+#HotIf WinExist("ahk_exe WindowsTerminal.exe")
+^z::WinMinimize "ahk_exe WindowsTerminal.exe"
+#HotIf
