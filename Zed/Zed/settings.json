@@ -1,0 +1,42 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "terminal": {
+    "shell": {
+      "program": "nu.exe"
+    }
+  },
+  "buffer_font_family": "霞鹜文楷等宽",
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
+    "show_nav_history_buttons": true,
+    "show_tab_bar_buttons": true,
+    "show": false
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_sign_in": false
+  },
+  "text_rendering_mode": "subpixel",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "base_keymap": "Emacs",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte - No Italics",
+    "dark": "One Dark",
+  },
+}
