@@ -119,6 +119,6 @@ HandleControlA() {
     }
 }
 
-#HotIf WinExist("ahk_exe WindowsTerminal.exe")
+#HotIf WinActive("ahk_exe WindowsTerminal.exe")
 ^z::WinMinimize "ahk_exe WindowsTerminal.exe"
 #HotIf

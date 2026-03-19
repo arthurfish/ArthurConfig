@@ -17,10 +17,10 @@
 # options using:
 #     config nu --doc | nu-highlight | less -R
 alias vim = nvim
-alias e = emacs -nw
-alias em = emacs -nw
-alias emacs = emacs -nw
+alias en = emacs -nw
+alias e = emacs
 alias zone = cd C:\ArthurZone
+alias story = cd C:\ArthurZone\literature\TellMeYourOriginStory\release\merge
 alias claude = claude --dangerously-skip-permissions
 $env.config.show_banner = false
 $env.config.buffer_editor = "emacs"
